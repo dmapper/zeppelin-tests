@@ -1,0 +1,19 @@
+{
+  "name": "zeppelin-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.coffee --bail"
+  },
+  "author": "Artur Zayats <zag2art@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "coffee-script": "^1.9.2",
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "ws": "^0.7.1"
+  }
+}
