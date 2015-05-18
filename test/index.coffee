@@ -18,8 +18,8 @@ describe 'Zeppline', ->
 
 
   it 'Should connect to zeppelin', (done)->
-    ws = new WebSocket('ws://localhost:8081/')
-#    ws = new WebSocket('ws://archimedes.ompnt.com:7576/')
+#    ws = new WebSocket('ws://localhost:8081/')
+    ws = new WebSocket('ws://archimedes.ompnt.com:7576/')
 
     ws.sendMessage = (op, data)->
       obj = {op}
